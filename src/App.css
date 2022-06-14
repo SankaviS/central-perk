@@ -1,10 +1,25 @@
 .App {
   text-align: center;
+  background-color: black;
+  color: white;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.navbar-custom {
+  background-color: #2e8b57;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+.navbar-custom li :hover {
+  background-color: #2e8b57;
+  border-radius: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {

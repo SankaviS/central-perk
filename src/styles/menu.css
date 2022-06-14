@@ -1,0 +1,8 @@
+.link {
+  color: white;
+  margin: 1vh;
+}
+.link:hover {
+  color: purple;
+  font-size: 2vh;
+}
